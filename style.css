@@ -1,0 +1,226 @@
+/*
+ * THEME NAME: Gottung
+ * THEME URI: http://gottung.net/
+ * DESCRIPTION: Gottung Reuntion
+ * VERSION: 0.0.1
+ * AUTHOR: Nathan L Smith
+ * AUTHOR URI: http://nlsmith.com/
+ * TAGS:
+ *
+ * Copyright (c) 2011 Nathan L Smith. All rights reserved.
+ *
+ **/
+* { margin: 0px; padding: 0px; }
+
+abbr { font-variant: small-caps; text-transform: lowercase; }
+
+body {
+	background: #CCCC99 url('images/bg.gif') repeat;
+	color: #666633;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 100%;
+  line-height: 1.125em; /* 16×1.125=18 */
+}
+
+#container {
+	width: 685px;
+	background: url('images/main-bg.gif') repeat-y;
+  padding-left: 70px;
+  padding-right: 128px;
+}
+
+#content {
+  font-size: 0.875em; /* 16x.875=14 */
+  padding-bottom: 1em;
+}
+
+a {
+  color: #336600;
+}
+
+a:visited {
+  color: #333300;
+}
+
+a:hover {
+	background-color: black;
+	color: #CCCC99;
+}
+
+h1#header {
+	background: url('images/header.gif') center no-repeat;
+	height: 166px;
+  margin: 0px auto 10px auto;
+	padding-top: 10px;
+	text-indent: -9999px;
+	width: 600px;
+}
+
+h2 {
+  border-bottom: solid 1px #666633;
+}
+
+h2, h3, h4, h5, h6, p, ul, ol {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+}
+
+fieldset { border: 0px; }
+
+/* Menu */
+
+#menu {
+  background-color: #CCCC99;
+	border: 3px solid #333300;
+	color: #666633;
+  font-size: 0.875em; /* 16x.875=14 */
+	left: 800px;
+	padding: 10px 5px;
+	position: absolute;
+	text-align: left;
+	top: 186px;
+	width: 170px;
+}
+
+#menu .menu-section.first {
+  background: url('images/menuborder-top.gif') top no-repeat;
+	padding-top: 30px;
+}
+
+#menu .menu-section.last {
+  background: url('images/menuborder-bottom.gif') bottom no-repeat;
+	padding-bottom: 30px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 0.5em;
+  margin-left: 20px;
+}
+
+#menu a {
+	background: #CCCC99 url('images/menu-dec.gif') right no-repeat;
+	color: #333300;
+	display: block;
+  font-weight: bold;
+	text-decoration: none;
+  width: 80%;
+}
+
+#menu a:hover {
+	background: #CCCC99 url('images/menu-hl.gif') right no-repeat;
+	color: #666633;
+}
+
+#menu a.active {
+  font-weight : normal;
+  color : #AFAF7C;
+  background : #CCCC99;
+}
+
+/* Footer */
+
+#footer { 
+	border-top: solid 1px #666633;
+  font-size: 0.75em;
+	margin: 0 auto;
+	padding: 5px 0;
+	position: relative;
+	text-align: center;
+}
+
+#footer img {
+ vertical-align: middle;
+}
+
+#footer span {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* Image stuff */
+
+p.caption {
+  font-size: 0.875em;
+}
+
+
+a.pdf, a.doc {
+  padding-right: 20px;
+}
+
+a.pdf:hover, a.doc:hover {
+	background-color: black;
+	color: #cccc99;
+}
+
+a.pdf {
+  background: url('images/pdf.png') right no-repeat;
+}
+
+a.doc {
+  background: url('images/doc.png') right no-repeat;
+}
+
+img.right {
+	float: right;
+	margin: 0em 0em 0.5em 0.5em;
+}
+
+img.full {
+  margin: 1em auto;
+  text-align: center;
+
+}
+
+/* Countdown Function */
+
+.countdown {
+  text-align: center;
+  width: 75%;
+  margin: 1em;
+}
+
+.countdown .days {
+	color: #333300;
+  display: block;
+  font-size: 1.625em;
+  font-weight: bold;
+  margin: 0.5em;
+}
+
+.countdown .message {
+  display: block;
+  font-size: 80%;
+}
+
+/* Gallery */
+
+iframe#gallery {
+  border: 0px;
+  margin: 0px;
+  overflow: auto;
+  padding: 0px;
+  width: 100%;
+  height: 400px; 
+}
+
+/* Blog */
+/* =BLOG */
+.post h2 {  font-size: 1.5em;  margin-bottom: 1em;
+  border-bottom: 1px solid; }
+.post h2 a { text-decoration: none; }
+.post .date { font-size: 0.875em; }
+.post,
+.body,
+.date { margin-bottom: 1em; }
+.authorinfo { font-style: italic; }
