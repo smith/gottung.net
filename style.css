@@ -39,6 +39,10 @@ ul li {
   margin: 0 0.6rem;
 }
 
+ul li.separate {
+  font-style: normal;
+}
+
 .date-and-location p {
   display: inline;
 }
