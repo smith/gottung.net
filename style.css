@@ -9,16 +9,21 @@ body {
   height: 100%;
   font-family: Average, Georgia, serif;
   font-size: 1.5rem;
+}
+
+header, footer, h3 {
   text-align: center;
 }
 
 h1, h2 {
   font-family: UnifrakturCook, cursive;
+  text-align: center;
 }
 
 h1 {
   font-size: 9rem;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 h2 {
@@ -63,4 +68,25 @@ a, a:active {
 
 a:hover {
   color: rgb(201, 131, 131);
+}
+
+.lodging {
+  text-align: center;
+}
+
+.lodging-address {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.lodging-address small {
+  display: block;
+  font-size: 60%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.lodging-address small .bul {
+  margin: 1em;
 }
