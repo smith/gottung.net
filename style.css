@@ -9,11 +9,28 @@ body {
   height: 100%;
   font-family: Average, Georgia, serif;
   font-size: 1.5rem;
+  margin: 3em;
 }
 
 header, footer, h3 {
   text-align: center;
 }
+
+header ul {
+  font-style: italic;
+  margin-top: 0.2rem;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 0.6rem;
+}
+
+header ul li.separate {
+  font-style: normal;
+}
+
 
 h1, h2 {
   font-family: UnifrakturCook, cursive;
@@ -33,19 +50,9 @@ h2 {
   text-transform: lowercase;
 }
 
-ul {
-  font-style: italic;
-  margin-top: 0.2rem;
-  padding: 0;
-}
-
-ul li {
-  display: inline;
-  margin: 0 0.6rem;
-}
-
-ul li.separate {
-  font-style: normal;
+li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .date-and-location p {
